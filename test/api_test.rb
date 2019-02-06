@@ -28,6 +28,8 @@ describe "GET on /api/users/:id" do
       bio: "Student")
   end
 
+
+
   it "Should retiurn user by name" do
     get '/api/users/paul'
     last_response.ok?
